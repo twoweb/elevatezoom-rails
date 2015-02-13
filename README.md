@@ -17,7 +17,7 @@ And then execute:
 
 ## Usage
 
-SimplyScroll is dependant on jQuery, so make sure you have it in your Gemfile.
+ElevateZoom is dependant on jQuery, so make sure you have it in your Gemfile.
 
 ```
     //= require jquery
