@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["TwoWeb"]
   spec.email         = ["dev@twoweb.com.br"]
   spec.summary       = "gem Jquery Image Zoom"
-  spec.description   = "jQuery Jquery Image Zoom for rails"
+  spec.description   = "jQuery Image Zoom for rails"
   spec.homepage      = "https://github.com/twoweb/elevatezoom-rails"
   spec.license       = "MIT"
 
