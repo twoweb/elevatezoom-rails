@@ -637,8 +637,8 @@ if ( typeof Object.create !== 'function' ) {
 				}
 
 				//container fix
-				self.zoomContainer.css({ top: self.nzOffset.top});
-				self.zoomContainer.css({ left: self.nzOffset.left});
+				self.zoomContainer.css({ top: (self.nzOffset.top === 0 ? self.nzOffset.top - self.nzHeight : self.nzOffset.top)});
+				self.zoomContainer.css({ left: (self.nzOffset.left === 0 ? self.nzOffset.left - self.nzWidth : self.nzOffset.left)});
 				self.mouseLeft = parseInt(e.pageX - self.nzOffset.left);
 				self.mouseTop = parseInt(e.pageY - self.nzOffset.top);
 				//calculate the Location of the Lens
